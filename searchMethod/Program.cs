@@ -125,7 +125,7 @@ namespace searchMethod
             Console.WriteLine("================");
             Console.WriteLine("1. Linear Search");
             Console.WriteLine("2. Binary search");
-            Console.WriteLine("3. exit")
+            Console.WriteLine("3. exit");
             Console.WriteLine(" Enter your choice (1,2,3) : ");
             pilihanmenu = Convert.ToInt32(Console.ReadLine());
 
