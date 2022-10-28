@@ -83,6 +83,19 @@ namespace searchMethod
                 ch = char.Parse(Console.ReadLine());
             } while ((ch == 'y') || (ch == 'Y'));
         }
+
+        public void LinearSearch()
+        {
+            char ch;
+            int ctr;
+            do
+            {
+
+
+                Console.Write("\nContinue search (y/n): ");
+                ch = char.Parse(Console.ReadLine());
+            } while ((ch == 'y') || (ch == 'Y'))
+        }
         static void Main(string[] args)
         {
         }
